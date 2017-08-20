@@ -1,0 +1,35 @@
+{
+  "name": "url-mime-type",
+  "version": "0.0.1",
+  "description": "Url mime type finder",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "bin": {
+    "url-mime-type": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indatawetrust/url-mime-type.git"
+  },
+  "keywords": [
+    "mime",
+    "type",
+    "url",
+    "finder"
+  ],
+  "author": "indatawetrust",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/indatawetrust/url-mime-type/issues"
+  },
+  "homepage": "https://github.com/indatawetrust/url-mime-type#readme",
+  "dependencies": {
+    "file-type": "^6.1.0",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "ava": "^0.22.0"
+  }
+}
